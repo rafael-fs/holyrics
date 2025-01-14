@@ -1,0 +1,69 @@
+/*Background*/
+.bible_slide {
+    display: flex;
+    width: 1623px;
+    height: 250px;
+    flex-shrink: 0;
+    background: url('https://media-hosting.imagekit.io//9f065266be8242ae/BG.svg?Expires=1831467752&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=NErA0EEkDp-3DyxYqjROsVJRlUaYV2O-E6AAYLykPLttZpvsFJQNGUZczVaHJiQdxN2h-RW0aS0qis09DHKjTJy2TcvF-Lf04SqGLYcHE6DnjCubNOqMG88TRwOMQS1iwPK3BxNHD6FBfq906A1dDYVlJ-QW9~urICU2qDIyLG3Ti9FUM1t08PBXdXagIph0MB14jk80Lxr4mHoaYnANvY2b9Q~ziJssYMnHYuRVForWFbfTi1sX1OsJxAm3FX1INgA2Uwdi0KOfsEupeZLdbnBPNosWqLSA8WKuej1nSnBt4b5y5FaNXI56We~LrwudW1cCcOpSN1B2Z2~D8ELIGQ__');
+    
+    }
+
+/*Versículo*/
+ctt {
+    width: 1623px;
+    height: 170px;
+    display: grid;
+    flex-direction: row;
+    align-items: top;
+    justify-content: flex-start;
+    color: #fff; 
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    font-family: Unbounded;
+    line-height: 95.027%;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: italic;
+    text-align: start;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+    animation-name: fadein;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+/*Referência*/
+.bible-header-custom {
+    width: 350px;
+    height: 86px;
+    text-align: center;
+    color: #FFF;
+    display: inline;
+    font-family: Unbounded;
+    font-style: normal;
+
+
+}
+
+desc {
+    font-size: 23px;
+}
+
+/*Versão da Bíblia*/
+span {
+    display: none;
+    font-size: 0px;
+}
+
+/*Efeito de transição*/
+:root {
+    --animation_out_delay: 200;
+}
+
+@keyframes fadein {
+    from {opacity: 0}
+    to   {opacity: 100}
+}
+
